@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.body {
+  background-color: #2e4242;
+  align-items: center;
+  background-image: url("../images/banknotes.jpg");
+  color: #292929;
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+
+.box__container {
+  background-color: white;
+  max-width: 545px;
+  margin: 25px auto;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px black;
+  text-align: right;
+}
+
+.box__container--bigger {
+  background-color: white;
+  max-width: 745px;
+  margin: 25px auto;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px black;
+  text-align: right;
+}
+
+.header {
+  color: #005757;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.error {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  color: red;
+  margin: 5px 0;
+}
+
+.success {
+  text-align: center;
+  color: #005757;
+}

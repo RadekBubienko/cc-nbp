@@ -1,0 +1,53 @@
+.table {
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.table__header {
+  margin-top: 0px;
+  color: #005757;
+}
+
+.table__number {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #005757;
+  font-size: 16px;
+  text-align: center;
+}
+
+.table__tableCell {
+  border: 1px solid darkgray;
+  padding: 8px;
+}
+
+.anchor__top {
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  margin-left: auto;
+  margin-right: 0;
+
+}
+
+.anchor__container--top {
+  text-align: center;
+  width: 200px;
+  height: 28px;
+  padding: 5px;
+  display: block;
+  background-color: #2376c8;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: 0;
+
+}
+
+.anchor__container--top:hover {
+  background-color: #185490;
+}
